@@ -11,7 +11,7 @@ export default async function Home() {
 // eslint-disable-next-line react/jsx-key
 <div>
   <Link href={`${book.id}`}>
-      <h1 className="text-5xl">
+      <h1 className="text-5xl justify-center items-center">
        {book.name}
       </h1>
       </Link>
